@@ -8,7 +8,7 @@
     "build": "tsc --declaration"
   },
   "dependencies": {
-    "sdz-agent-database-informix": "https://github.com/seedz-ag/sdz-agent-database-informix",
+    "sdz-agent-database-informix": "https://github.com/seedz-ag/sdz-agent-database-informix#feature/stubs",
     "sdz-agent-types": "https://github.com/seedz-ag/sdz-agent-types.git"
   },
   "devDependencies": {
