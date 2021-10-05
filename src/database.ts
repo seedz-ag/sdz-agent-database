@@ -2,7 +2,7 @@ import {
   ConfigDatabaseInterface,
   Connector,
   DatabasePackage,
-  Repository,
+  AbstractRepository,
 } from "sdz-agent-types";
 
 import Informix from "sdz-agent-database-informix";
@@ -12,7 +12,7 @@ class Database {
   private drivers = {
     informix: Informix,
   };
-  private repository: Repository;
+  private repository: AbstractRepository;
   constructor(config: ConfigDatabaseInterface) {
     this.config = config;
   }
@@ -33,7 +33,7 @@ class Database {
   getDriver(): DatabasePackage {
     return this.drivers[this.config["driver"].toLowerCase()];
   }
-  getRepository(): Repository {
+  getRepository(): AbstractRepository {
     if (!this.repository) {
       const repository = this.getDriver().Repository as any;
       this.repository = new repository(this.getConnector());
