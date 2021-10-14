@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "sdz-agent-database-informix": "https://github.com/seedz-ag/sdz-agent-database-informix",
+    "sdz-agent-database-oracle": "https://github.com/seedz-ag/sdz-agent-database-oracle",
     "sdz-agent-types": "https://github.com/seedz-ag/sdz-agent-types.git"
   },
   "devDependencies": {
