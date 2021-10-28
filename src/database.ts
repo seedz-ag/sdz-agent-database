@@ -6,11 +6,13 @@ import {
 } from "sdz-agent-types";
 
 import Informix from "sdz-agent-database-informix";
+import Oracle from "sdz-agent-database-oracle";
 class Database {
   private config: ConfigDatabaseInterface;
   private connector: Connector;
   private drivers = {
     informix: Informix,
+    oracle: Oracle,
   };
   private repository: AbstractRepository;
   constructor(config: ConfigDatabaseInterface) {

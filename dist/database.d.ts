@@ -1,4 +1,4 @@
-import { ConfigDatabaseInterface, Connector, DatabasePackage, Repository } from "sdz-agent-types";
+import { ConfigDatabaseInterface, Connector, DatabasePackage, AbstractRepository } from "sdz-agent-types";
 declare class Database {
     private config;
     private connector;
@@ -8,7 +8,7 @@ declare class Database {
     connect(): void;
     getConnector(): Connector;
     getDriver(): DatabasePackage;
-    getRepository(): Repository;
+    getRepository(): AbstractRepository;
     disconnect(): void;
 }
 export default Database;
