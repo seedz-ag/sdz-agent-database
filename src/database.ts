@@ -7,12 +7,17 @@ import {
 
 import Informix from "sdz-agent-database-informix";
 import Oracle from "sdz-agent-database-oracle";
+import MySQL from "sdz-agent-database-mysql";
+import MSSQL from "sdz-agent-database-mssql";
+
 class Database {
   private config: ConfigDatabaseInterface;
   private connector: Connector;
   private drivers = {
     informix: Informix,
     oracle: Oracle,
+    msqql: MSSQL,
+    mysql: MySQL,
   };
   private repository: AbstractRepository;
   constructor(config: ConfigDatabaseInterface) {
