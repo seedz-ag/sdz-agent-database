@@ -16,7 +16,7 @@ class Database {
   private drivers = {
     informix: Informix,
     oracle: Oracle,
-    msqql: MSSQL,
+    mssql: MSSQL,
     mysql: MySQL,
   };
   private repository: AbstractRepository;
