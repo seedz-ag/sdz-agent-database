@@ -5,15 +5,19 @@ import {
   AbstractRepository,
 } from "sdz-agent-types";
 
+import Firebird from "sdz-agent-database-firebird";
 import Informix from "sdz-agent-database-informix";
-import Oracle from "sdz-agent-database-oracle";
-import MySQL from "sdz-agent-database-mysql";
+
 import MSSQL from "sdz-agent-database-mssql";
+import MySQL from "sdz-agent-database-mysql";
+import Oracle from "sdz-agent-database-oracle";
+
 
 class Database {
   private config: ConfigDatabaseInterface;
   private connector: Connector;
   private drivers = {
+    firebird: Firebird,
     informix: Informix,
     oracle: Oracle,
     mssql: MSSQL,
