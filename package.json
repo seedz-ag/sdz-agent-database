@@ -5,7 +5,8 @@
   "license": "APACHE",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc --declaration"
+    "build": "tsc --declaration",
+    "prepare": "husky install"
   },
   "dependencies": {
     "sdz-agent-database-firebird": "https://github.com/seedz-ag/sdz-agent-database-firebird.git",
@@ -18,6 +19,7 @@
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
-    "@types/node": "^16.6.1"
+    "@types/node": "^16.6.1",
+    "husky": "^8.0.0"
   }
 }
