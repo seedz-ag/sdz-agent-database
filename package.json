@@ -9,12 +9,12 @@
     "build": "tsc --declaration"
   },
   "dependencies": {
-    "sdz-agent-database-firebird": "https://github.com/seedz-ag/sdz-agent-database-firebird.git#bugfix/#24905",
-    "sdz-agent-database-informix": "https://github.com/seedz-ag/sdz-agent-database-informix.git#bugfix/#24905",
-    "sdz-agent-database-mysql": "https://github.com/seedz-ag/sdz-agent-database-mysql.git#bugfix/#24905",
-    "sdz-agent-database-mssql": "https://github.com/seedz-ag/sdz-agent-database-mssql.git#bugfix/#24905",
-    "sdz-agent-database-oracle": "https://github.com/seedz-ag/sdz-agent-database-oracle.git#bugfix/#24905",
-    "sdz-agent-types": "https://github.com/seedz-ag/sdz-agent-types.git#bugfix/#24905"
+    "sdz-agent-database-firebird": "https://github.com/seedz-ag/sdz-agent-database-firebird.git",
+    "sdz-agent-database-informix": "https://github.com/seedz-ag/sdz-agent-database-informix.git",
+    "sdz-agent-database-mysql": "https://github.com/seedz-ag/sdz-agent-database-mysql.git",
+    "sdz-agent-database-mssql": "https://github.com/seedz-ag/sdz-agent-database-mssql.git",
+    "sdz-agent-database-oracle": "https://github.com/seedz-ag/sdz-agent-database-oracle.git",
+    "sdz-agent-types": "https://github.com/seedz-ag/sdz-agent-types.git"
   },
   "devDependencies": {
     "@types/node": "^16.6.1"
