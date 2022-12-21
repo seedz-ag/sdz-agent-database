@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "sdz-agent-database-firebird": "https://github.com/seedz-ag/sdz-agent-database-firebird.git",
-    "sdz-agent-database-informix": "https://github.com/seedz-ag/sdz-agent-database-informix.git",
     "sdz-agent-database-mysql": "https://github.com/seedz-ag/sdz-agent-database-mysql.git",
     "sdz-agent-database-mssql": "https://github.com/seedz-ag/sdz-agent-database-mssql.git",
     "sdz-agent-database-odbc": "https://github.com/seedz-ag/sdz-agent-database-odbc.git",

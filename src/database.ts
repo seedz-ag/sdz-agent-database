@@ -18,7 +18,6 @@ class Database {
   private connector: Connector;
   private drivers = {
     firebird: Firebird,
-    informix: Informix,
     oracle: Oracle,
     mssql: MSSQL,
     mysql: MySQL,
