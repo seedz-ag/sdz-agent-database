@@ -12,8 +12,6 @@
     "sdz-agent-database-firebird": "https://github.com/seedz-ag/sdz-agent-database-firebird.git",
     "sdz-agent-database-mysql": "https://github.com/seedz-ag/sdz-agent-database-mysql.git",
     "sdz-agent-database-mssql": "https://github.com/seedz-ag/sdz-agent-database-mssql.git",
-    "sdz-agent-database-odbc": "https://github.com/seedz-ag/sdz-agent-database-odbc.git",
-    "sdz-agent-database-oracle": "https://github.com/seedz-ag/sdz-agent-database-oracle.git",
     "sdz-agent-types": "https://github.com/seedz-ag/sdz-agent-types.git"
   },
   "devDependencies": {
