@@ -8,6 +8,7 @@ import {
 import Firebird from "sdz-agent-database-firebird";
 import Informix from "sdz-agent-database-informix";
 
+import MongoDB from "sdz-agent-database-mongodb";
 import MSSQL from "sdz-agent-database-mssql";
 import MySQL from "sdz-agent-database-mysql";
 import Oracle from "sdz-agent-database-oracle";
@@ -20,9 +21,10 @@ class Database {
     firebird: Firebird,
     informix: Informix,
     oracle: Oracle,
+    mongodb: MongoDB,
     mssql: MSSQL,
     mysql: MySQL,
-    odbc: ODBC
+    odbc: ODBC,
   };
   private repository: AbstractRepository;
   constructor(config: ConfigDatabaseInterface) {
